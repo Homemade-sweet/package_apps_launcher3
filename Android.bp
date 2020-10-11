@@ -177,6 +177,13 @@ java_library {
     },
 }
 
+java_import {
+    name: "libGoogleFeed",
+    jars: [
+        "libs/libGoogleFeed.jar",
+    ],
+}
+
 // Library with all the dependencies for building Launcher3
 android_library {
     name: "Launcher3ResLib",
@@ -196,6 +203,7 @@ android_library {
         "iconloader_base",
         "view_capture",
         "animationlib",
+        "libGoogleFeed"
     ],
     manifest: "AndroidManifest-common.xml",
     sdk_version: "current",
