@@ -8,6 +8,7 @@
     <!-- Additional permissions on top of privapp-permissions-platform.xml -->
     <privapp-permissions package="com.android.launcher3">
         <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="com.android.permission.MANAGE_APP_LOCK"/>
     </privapp-permissions>
 
 </permissions>
